@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Mundeshwari Diagnostic - Medical Diagnostic Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-red-600">Maa Mundeshwari Diagnostic</h1>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                        Login
+                    </button>
+                    <button class="border border-blue-600 text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors">
+                        Register
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Advanced Medical Diagnostics
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-90">
+                Comprehensive healthcare solutions with cutting-edge technology
+            </p>
+            <div class="space-x-4">
+                <button class="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Book Test Now
+                </button>
+                <button class="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-600 transition-colors">
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Complete Medical Diagnostic Solutions
+                </h2>
+                <p class="text-xl text-gray-600">
+                    From patient registration to report delivery - everything in one platform
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Patient Management -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="users" class="w-6 h-6 text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Patient Management</h3>
+                    <p class="text-gray-600">Complete patient registration, medical history tracking, and profile management with secure data handling.</p>
+                </div>
+
+                <!-- Test Booking -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="calendar" class="w-6 h-6 text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Smart Test Booking</h3>
+                    <p class="text-gray-600">Online test scheduling with calendar integration, automated reminders, and real-time availability.</p>
+                </div>
+
+                <!-- Medical Imaging -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="scan-line" class="w-6 h-6 text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Medical Imaging</h3>
+                    <p class="text-gray-600">X-ray, Ultrasound, and other medical imaging with advanced viewer and analysis tools.</p>
+                </div>
+
+                <!-- Payment Processing -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover">
+                    <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="credit-card" class="w-6 h-6 text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Secure Payments</h3>
+                    <p class="text-gray-600">UPI, Paytm, Google Pay, credit/debit cards, net banking, and cash payments with automated billing.</p>
+                </div>
+
+                <!-- Report Generation -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover">
+                    <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="file-text" class="w-6 h-6 text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Digital Reports</h3>
+                    <p class="text-gray-600">Automated PDF report generation with digital signatures and secure sharing capabilities.</p>
+                </div>
+
+                <!-- Analytics -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="bar-chart" class="w-6 h-6 text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Advanced Analytics</h3>
+                    <p class="text-gray-600">Comprehensive dashboards, revenue tracking, and operational insights with real-time data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="bg-gray-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-4xl font-bold text-blue-600 mb-2">25,000+</div>
+                    <div class="text-gray-600">Tests Completed</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-green-600 mb-2">12,000+</div>
+                    <div class="text-gray-600">Happy Patients</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-purple-600 mb-2">75+</div>
+                    <div class="text-gray-600">Test Types</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-red-600 mb-2">24/7</div>
+                    <div class="text-gray-600">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Test Types Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Popular Diagnostic Tests
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Comprehensive test catalog with competitive pricing
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- X-Ray -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold">X-Ray</h3>
+                        <span class="bg-blue-100 text-blue-800 text-sm px-2 py-1 rounded">From ₹400</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Chest X-Ray, Abdominal X-Ray, Bone X-Ray with digital imaging</p>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                        Book Now
+                    </button>
+                </div>
+
+                <!-- Ultrasound -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold">Ultrasound</h3>
+                        <span class="bg-green-100 text-green-800 text-sm px-2 py-1 rounded">From ₹600</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Pregnancy, Abdominal, Cardiac ultrasound with color Doppler</p>
+                    <button class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition-colors">
+                        Book Now
+                    </button>
+                </div>
+
+                <!-- Pathology -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold">Pathology</h3>
+                        <span class="bg-purple-100 text-purple-800 text-sm px-2 py-1 rounded">From ₹250-300</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Blood tests, urine tests, biopsy, and microscopic analysis</p>
+                    <button class="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition-colors">
+                        Book Now
+                    </button>
+                </div>
+
+                <!-- ECG -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold">ECG</h3>
+                        <span class="bg-red-100 text-red-800 text-sm px-2 py-1 rounded">From ₹300</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Resting ECG, Stress ECG, Holter monitoring, and cardiac assessment</p>
+                    <button class="w-full bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 transition-colors">
+                        Book Now
+                    </button>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="bg-gray-900 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Built with Modern Technology
+                </h2>
+                <p class="text-xl text-gray-300">
+                    Enterprise-grade technology stack for reliable healthcare solutions
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-2xl font-bold mb-2">Django</div>
+                    <div class="text-gray-400">Backend Framework</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold mb-2">React</div>
+                    <div class="text-gray-400">Frontend Framework</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold mb-2">PostgreSQL</div>
+                    <div class="text-gray-400">Database</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold mb-2">AWS</div>
+                    <div class="text-gray-400">Cloud Infrastructure</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Maa Mundeshwari Diagnostic</h3>
+                    <p class="text-gray-400">
+                        Advanced medical diagnostic solutions with cutting-edge technology and expert care.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">X-Ray</a></li>
+                        <li><a href="#" class="hover:text-white">Ultrasound</a></li>
+                        <li><a href="#" class="hover:text-white">Pathology</a></li>
+                        <li><a href="#" class="hover:text-white">ECG</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">About Us</a></li>
+                        <li><a href="#" class="hover:text-white">Contact</a></li>
+                        <li><a href="#" class="hover:text-white">Careers</a></li>
+                        <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>📞 +(91) 9334450844</li>
+                        <li>📞 +(91) 9471837461</li>
+                        <li>📞 +(91) 6204422093</li>
+                        <li>✉️ maamundeshwaribhabua@gmail.com</li>
+                        <li>📍 Astitva Complex, Opposite Sadar Hospital</li>
+                        <li>🏥 Bhabua -821101 (Kaimur), Bihar</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Maa Mundeshwari Diagnostic. All rights reserved. | Built with Django + React</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add loading animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '1';
+        });
+    </script>
+
+    <style>
+        body {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+    </style>
+</body>
+</html>
+
